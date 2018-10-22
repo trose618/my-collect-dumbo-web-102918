@@ -11,4 +11,5 @@ def my_collect(collection)
     index += 1 
     
   end
+  updated_collection
 end
