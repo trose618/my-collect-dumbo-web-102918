@@ -5,7 +5,7 @@ def my_collect(collection)
   
   while index < collection.length 
     
-    yield collection[index]
+   current = yield collection[index]
     index += 1 
     
   end
