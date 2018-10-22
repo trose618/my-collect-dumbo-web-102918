@@ -4,12 +4,9 @@ def my_collect(collection)
   updated_collection = []
   
   while index < collection.length 
-    
    current = yield collection[index]
-   
    updated_collection << current
-    index += 1 
-    
+   index += 1 
   end
   updated_collection
 end
